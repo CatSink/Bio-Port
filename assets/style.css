@@ -1,4 +1,4 @@
-* {
+  html {
     box-sizing:content-box;
     padding:0;
     margin:0;
@@ -40,91 +40,24 @@
     margin-right: auto;
     box-sizing: content-box;
   }
+  img {
+    display:flex;
+    border: 5px rgb(39, 2, 2);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 30%;
+    max-height: 30%;
+  }
    h4,h5 {
     font-style:italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:smaller;
     font-display:grey;
    }
-   article {
-    display: inline-block;
-    box-sizing: content-box;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   }
-   .top {
-    display:inline-block;
-    justify-content:center;
-    align-content: center;
-    width:fit-content;
-    border: 10px;
-    border-radius:8px;
-   }
-   .Surf {
-    display:inline-block;
-    justify-content:center;
-    align-content:center;
-    width:600px;
-    height:900px;
-   }
-   .content {
-    display: inline-block;
-    justify-content:center;
-    align-content: center;
-    border: 10px grey;
-    border-radius: 8px;
-    width: 100%;
-   }
-   .LED-Wall {
-    display:inline-block;
-    justify-content:center;
-    align-content:center;
-    border: 10px grey;
-    border-radius: 8px;
-    width: 300px;
-    height:450px;
-   }
-   .Calculator {
-    display:inline-block;
-    justify-content:center;
-    align-content:center;
-    border: 10px grey;
-    border-radius: 8px;
-    width: 300px;
-    height:450px;
-   }
-   .card {
-    display: inline-block;
-    justify-content:center;
-    align-content:center;
-    border: 10px grey;
-    border-radius: 8px;
-    width:100%;
-    }
-    .Pastel-Puzzles {
-      display:inline-block;
-      justify-content:center;
-      align-content:center;
-      border: 10px grey;
-      border-radius: 8px;
-      width: 300px;
-      height:450px;
-    }
-    .Run-Buddy {
-      display:inline-block;
-      justify-content:center;
-      align-content:center;
-      border: 10px grey;
-      border-radius: 8px;
-      width: 300px;
-      height:450px;
-    }
   .header {
     box-sizing: content-box;
     border-top-color: #13293d;
-    display:inline-flexbox;
+    display:flex;
     margin:0;
     padding: left 2%; ;
   }
